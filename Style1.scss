@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Oswald";
+    src: url("./Polices/Oswald/Oswald-VariableFont_wght.ttf");
+} 
+body{
+    background:blue;
+    font-family: "Oswald";
+    ul{
+        list-style-type: none;
+    }
+}

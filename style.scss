@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "Oswald";
+    src: url("./Polices/Oswald/Oswald-VariableFont_wght.ttf");
+} 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/*DEBUT DE MON BODY*/
+body{
+    background-color: white;
+    width:100vw;
+    height:70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /*Titre du page en entete */
+    h1{
+        font-family: "Oswald";
+        font-size: 78px;
+        text-align: center;
+    }
+    img{
+        width: 8rem;
+        
+    }
+    /*Entete de page*/
+    header{
+        width: 100vw;
+        height: 22vh;
+        background-color: #9fd3e0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 1rem;
+        
+    
+    }
+        .WidgetsEmplacement p{
+        width: 300px;
+        height: 270px;
+        border-radius: 100%;
+        background-color: #9fd3e0;
+
+    }
+        .WidgetsEmplacement{
+        /*Police de mon cadre*/
+        font-family: "Oswald";
+        font-size :90px;
+
+        /*Marge de mon cadre*/
+        margin-left: 50rem;
+        margin-right: 50rem;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        height: 23vh;
+    }
+    div img{
+        width: 25rem;
+        height: 44rem;   
+    }
+    div p{
+        padding: 3rem;
+        margin: 1em;
+    }
+   
+    
+}
+
+
+footer{
+        font-family: "Oswald";
+        background-color: #9fd3e0;
+        position:absolute;
+        bottom:0;
+        width:100%;
+        padding-top:60px;
+        height:35px;
+    }
+    footer p{
+        text-align:right;
+        margin-right: 1.4rem;
+}
