@@ -105,41 +105,56 @@
                 <div id="collapseCalculator" class="accordion-collapse collapse" aria-labelledby="headingCalculator" data-bs-parent="#accordionWidget">
                     <div class="accordion-body">
                         <div class="mycalc">
-                            <form name="calculator" id="calculator">
-                            <input type="text" name="inputwindow" id="inputwindow">
-                            <div>
-                                <input type="button" id="seven" value="7" onclick="takeValue(document.getElementById('seven').value)">
-                                <input type="button" id="eight" value="8" onclick="takeValue(document.getElementById('eight').value)">
-                                <input type="button" id="nine" value="9" onclick="takeValue(document.getElementById('nine').value)">
-                                <input type="button" id="by" value="*" onclick="takeValue(document.getElementById('by').value)">
-                            </div>
-                            <div>
-                                <input type="button" id="four" value="4" onclick="takeValue(document.getElementById('four').value)">
-                                <input type="button" id="five" value="5" onclick="takeValue(document.getElementById('five').value)">
-                                <input type="button" id="six" value="6" onclick="takeValue(document.getElementById('six').value)">
-                                <input type="button" id="minus" value="-" onclick="takeValue(document.getElementById('minus').value)">
-                            </div>
-                            <div>
-                                <input type="button" id="one" value="1" onclick="takeValue(document.getElementById('one').value)">
-                                <input type="button" id="two" value="2" onclick="takeValue(document.getElementById('two').value)">
-                                <input type="button" id="three" value="3" onclick="takeValue(document.getElementById('three').value)">
-                                <input type="button" id="plus" value="+" onclick="takeValue(document.getElementById('plus').value)">
-                            </div>
-                            <div>
-                                <input type="button" id="zero" value="0" onclick="takeValue(document.getElementById('zero').value)">
-                                <input type="button" id="decimal" value="." onclick="takeValue(document.getElementById('decimal').value)">
-                                <input type="button" id="devide" value="/" onclick="takeValue(document.getElementById('devide').value)">
-                                <input type="button" id="percent" value="%" onclick="takeValue(document.getElementById('percent').value)">
-                            </div>
-                            <div class="results">
-                                <button type="button" id="clear" value="" onclick="clearInput(document.getElementById('clear').value)">Clear</button>
-                                <input type="button" id="equal" value="=" onclick="calculateResult()">
+                                <form name="calculator" id="calculator">
+                                    <input type="text" name="inputwindow" id="inputwindow">
+                                    <div>
+                                        <input type="button" id="seven" value="7" onclick="takeValue(document.getElementById('seven').value)">
+                                        <input type="button" id="eight" value="8" onclick="takeValue(document.getElementById('eight').value)">
+                                        <input type="button" id="nine" value="9" onclick="takeValue(document.getElementById('nine').value)">
+                                        <input type="button" id="by" value="*" onclick="takeValue(document.getElementById('by').value)">
+                                    </div>
+                                    <div>
+                                        <input type="button" id="four" value="4" onclick="takeValue(document.getElementById('four').value)">
+                                        <input type="button" id="five" value="5" onclick="takeValue(document.getElementById('five').value)">
+                                        <input type="button" id="six" value="6" onclick="takeValue(document.getElementById('six').value)">
+                                        <input type="button" id="minus" value="-" onclick="takeValue(document.getElementById('minus').value)">
+                                    </div>
+                                    <div>
+                                        <input type="button" id="one" value="1" onclick="takeValue(document.getElementById('one').value)">
+                                        <input type="button" id="two" value="2" onclick="takeValue(document.getElementById('two').value)">
+                                        <input type="button" id="three" value="3" onclick="takeValue(document.getElementById('three').value)">
+                                        <input type="button" id="plus" value="+" onclick="takeValue(document.getElementById('plus').value)">
+                                    </div>
+                                    <div>
+                                        <input type="button" id="zero" value="0" onclick="takeValue(document.getElementById('zero').value)">
+                                        <input type="button" id="decimal" value="." onclick="takeValue(document.getElementById('decimal').value)">
+                                        <input type="button" id="devide" value="/" onclick="takeValue(document.getElementById('devide').value)">
+                                        <input type="button" id="percent" value="%" onclick="takeValue(document.getElementById('percent').value)">
+                                    </div>
+                                    <div class="results">
+                                        <button type="button" id="clear" value="" onclick="clearInput(document.getElementById('clear').value)">Clear</button>
+                                        <input type="button" id="equal" value="=" onclick="calculateResult()">
+                                    </div>
+                                </form>
                             </div>
                             
-                            </form>
-                            </div>
                     </div>
                 </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Convertisseur
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <!-- Unit Conversion Script - TheUnitConverter.com -->
+                            <div style="width:238px;margin:0px auto;"><div style="width:99.5%;border:1px solid #2D6AB4;border-top:none;border-bottom:none;text-align:center; height:24px;font-size:16px;padding:5px 0px 0px 0px;border-top-right-radius:5px; border-top-left-radius:5px;background-color:#2D6AB4;color:#FFFFFF; font-weight:bold;"><a href="https://www.theunitconverter.com/" style="color:#FFFFFF; text-decoration:none;" rel="nofollow">Length Conversion</a></div><script type="text/javascript" src="https://www.theunitconverter.com/converter.php?l=en&t=1&c=0&a=FFFFFF&d=000000&b=2D6AB4&s=length">
+                        </script>
+                        </div><!-- End of Unit Conversion Script -->
+                      </div>
+                    </div>
+                  </div>
             </div>
         </div>
     </div>
