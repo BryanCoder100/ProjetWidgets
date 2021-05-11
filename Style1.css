@@ -2,12 +2,131 @@
   font-family: "Oswald";
   src: url("./Polices/Oswald/Oswald-VariableFont_wght.ttf");
 }
-body {
-  background: blue;
-  font-family: "Oswald";
+@font-face {
+  font-family: "Oswald Bold";
+  src: url("./Polices/Oswald/static/Oswald-Bold.ttf");
 }
-body ul {
-  list-style-type: none;
+body {
+  background: url("./Images/BackgroundBleu.png");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  font-family: "Oswald";
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+}
+body section {
+  margin-bottom: 10rem;
+}
+body .Policefete {
+  font-family: "Oswald Bold";
+}
+body .container {
+  margin: auto;
+  width: 50%;
+}
+body .item {
+  margin: auto;
+  display: block;
+  height: 50px;
+  width: 100%;
+  background-color: #9fd3e0;
+}
+body .center {
+  text-align: center;
+}
+body #weather-location {
+  text-align: center;
+  font-weight: bold;
+}
+body #weather-preview {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+body #weather-icon {
+  height: 145px;
+  width: 145px;
+  margin: auto;
+}
+body #weather-temp {
+  font-size: 32px;
+  text-align: center;
+  margin-top: 75px;
+}
+body #weather-detail p {
+  text-align: left;
+  padding-left: 24px;
+}
+body #weather-detail {
+  padding-top: 26px;
+}
+body .main-container {
+  margin: auto;
+  width: 50rem;
+}
+
+header p {
+  font-family: "Oswald bold";
+  font-size: 65px;
+  padding: 1rem;
+  text-align: center;
+}
+
+/*Calculatrice*/
+body div.mycalc {
+  font-family: "Oswald bold";
+  text-align: center;
+  width: 23vw;
+  margin: 0 auto;
+}
+
+div input[type=button], button {
+  width: 5vw;
+  height: 50px;
+  margin: 2px 0;
+}
+
+div input[type=text] {
+  font-family: "Oswald bold";
+  height: 50px;
+  width: 100%;
+  background-color: #999;
+  color: #FFF;
+  padding: 12px 20px;
+  margin-bottom: 4px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #777;
+}
+
+div.results input, div.results button {
+  height: 50px;
+  width: 10vw;
+}
+
+div.results button {
+  background-color: #364F6B;
+  font-family: "Oswald", bold;
+  color: #FFF;
+  border: 1px solid #364F6B;
+}
+
+div.results input {
+  background-color: #9fd3e0;
+  font-family: "Oswald", bold;
+  color: #FFF;
+  border: 1px solid #9fd3e0;
+}
+
+#plus, #minus, #by, #devide, #percent {
+  font-family: "Oswald", bold;
+  background-color: #9fd3e0;
+  color: #FFF;
+  border: 1px solid #9fd3e0;
+  font-size: 19px;
 }
 
 /*# sourceMappingURL=Style1.css.map */
